@@ -1,12 +1,12 @@
 import React from 'react';
-import './assets/styles/global.css';
-import Landing from './pages/Landing';
 
-//JSX - Javascript + XML
+import Routes from './routes';
+
+import './assets/styles/global.css'
 
 function App() {
   return (
-    <Landing />
+    <Routes />
   );
 }
 
